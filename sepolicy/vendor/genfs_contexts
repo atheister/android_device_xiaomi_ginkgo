@@ -1,2 +1,8 @@
+# Battery
+genfscon sysfs /devices/soc/c176000.i2c/i2c-2/2-001d            u:object_r:sysfs_battery_supply:s0
+
+# DT2W
 genfscon proc /tp_gesture u:object_r:proc_touchpanel:s0
+
+# Kernelspace
 genfscon sysfs /module/battery_saver/parameters/enabled u:object_r:sysfs_battery_saver:s0
